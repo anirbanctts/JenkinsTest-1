@@ -19,6 +19,7 @@ public class Main {
         printWriter.append(String.valueOf(count)).append("  :   ").append(new Date().toString()).append("\n");
         printWriter.flush();
         printWriter.close();
+        
     }
 }
 
