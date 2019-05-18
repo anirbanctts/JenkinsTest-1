@@ -13,14 +13,11 @@ public class Main {
         int count = 0;
         while(reader.readLine()!=null) count++;
         reader.close();
-        
 
         PrintWriter printWriter = new PrintWriter(new FileWriter(file, true));
         printWriter.append(String.valueOf(count)).append("  :   ").append(new Date().toString()).append("\n");
         printWriter.flush();
         printWriter.close();
-        
-        adasdas
     }
 }
 
