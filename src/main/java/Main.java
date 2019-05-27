@@ -20,7 +20,6 @@ public class Main {
         printWriter.flush();
         printWriter.close();
         
-        adasdas
     }
 }
 
